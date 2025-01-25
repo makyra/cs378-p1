@@ -1,3 +1,128 @@
-body {
-    color: hotpink;
+html, body {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
 }
+
+body {
+    background-color: #3A1F04;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 1.3rem;
+    margin-bottom: 1.1rem;
+    height: 8vh;
+}
+
+.logo {
+    width: 10rem;
+    height: 3rem;
+}
+
+header {
+    color: #32CD32;
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.phrase {
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    color: hotpink;
+    margin: 0;
+}
+
+.phrase + header {
+    margin-top: -0.5rem;
+}
+
+.container-fluid {
+    padding: 0.2rem;
+}
+
+.menu {
+    display: flex;
+    margin: 0.5rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;   
+    gap: 1rem;
+    width: 100%;
+    margin-top: auto; 
+}
+
+.imageBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    flex: 1;
+    justify-content: space-between;
+    padding-right: 0.75rem;
+    }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.2rem;
+    margin-left: -0.1rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foodDesc{
+    margin-right: 0.3rem;
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+    max-width: 90%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+div {
+    color: #FEE0E0;
+}
+
+img {
+    width: 9.3rem;
+    height: 9.3rem;
+    border-radius: 20%;
+}
+
+.btn-circle { 
+    width: 4.0rem; 
+    height: 2.0rem; 
+    font-size: 1.0rem;
+    padding: 0;
+    border-radius: 50%;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+} 
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: 5%;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    border: 1px solid #FEE0E0;
+}
+
+
+
